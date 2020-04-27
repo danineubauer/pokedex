@@ -1,0 +1,25 @@
+.Pokecard {
+  border: 1px solid lightslategray;
+  width: 250px; 
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 7px 10px 12px -5px rgb(62, 39, 85);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.Pokecard:hover { 
+  opacity: 0.5;
+}
+
+.Pokedex-cards { 
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Pokecard-data { 
+  font-size: 100%;
+}
+
+
