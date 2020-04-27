@@ -1,7 +1,7 @@
 .Pokecard {
   border: 1px solid lightslategray;
-  width: 250px; 
-  height: 350px;
+  width: 220px; 
+  height: 220px;
   margin: 5px;
   padding: 5px;
   box-shadow: 7px 10px 12px -5px rgb(62, 39, 85);
@@ -10,26 +10,48 @@
 }
 
 img { 
-  width: 200px;
+  width: 120px;
   margin: 0px;
 }
 
 h1 { 
+  font-size: 20px;
   margin: 0px;
 }
 
-.Pokecard:hover { 
-  opacity: 0.5;
+h4 { 
+  margin: 0;
 }
+p { 
+  margin: 0;
+}
+
 
 .Pokedex-cards { 
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .Pokecard-data { 
   font-size: 100%;
+}
+
+.Pokecard img:hover { 
+  transform: scale(1.25);  
+  opacity: 0.8;
+}
+
+.Pokedex-winner { 
+  color: green; 
+  margin-top: 5px;
+}
+
+.Pokedex-loser { 
+  color: red;
+  margin-top: 5px;
 }
 
 

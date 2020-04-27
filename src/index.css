@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(231, 230, 228);
+  font-family: 'Manrope', sans-serif;
 }
 
 code {
