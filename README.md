@@ -1,3 +1,9 @@
+### Pokedex Game 
+Created by Danielle Neubauer in ReactJS
+
+## About 
+Two decks are displayed. The app draws each round a deck of 4 cards each. The deck with the highest total exp wins. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
